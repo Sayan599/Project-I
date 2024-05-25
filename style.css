@@ -79,6 +79,7 @@ main {
     align-items: center;
     color: #EEFFE0;
     /* padding-left: 20px; */
+    transition: width 1s ease;
 }
 
 .progress-value span {
@@ -123,6 +124,9 @@ main {
     color: #48A300;
 }
 
+.show-error {
+    display: block;
+}
 
 .custom-checkbox {
     width: 24px;
